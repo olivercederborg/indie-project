@@ -17,7 +17,10 @@ module.exports = {
 		safelist: [/^svelte-[\d\w]+$/]
 	},
 	theme: {
-		extend: {}
+		extend: {},
+		container: {
+			center: true
+		}
 	},
 	variants: {
 		extend: {}
